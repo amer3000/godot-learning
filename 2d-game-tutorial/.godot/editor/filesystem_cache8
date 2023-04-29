@@ -1,7 +1,12 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1679511581
+::res://::1682785490
 icon.svg::CompressedTexture2D::985808008986675400::1679511552::1679511552::1::::<><>::
-Player.tscn::PackedScene::5879704029433703859::1679511552::0::1::::<><>::uid://x2targ6r0a2i<>uid://cwrfx2fj5hc16<>uid://blw80kjlxbmvj<>uid://cd3f3qy2g383q
+main.gd::GDScript::-1::1679950202::0::1::::<>Node<>::
+main.tscn::PackedScene::1238553671510886349::1679950475::0::1::::<><>::res://main.gd<>uid://cp1f4pqg8ocop<>uid://byvb7bi238iow
+Mob.gd::GDScript::-1::1679933627::0::1::::<>RigidBody2D<>::
+Mob.tscn::PackedScene::4114422792386122810::1679950475::0::1::::<><>::uid://dvyvpch6dx8ha<>res://Mob.gd<>uid://drlcrgkmuvbda<>uid://dtha44u32gew0<>uid://b6m7j3as4tbnr<>uid://b86avinxxx4e<>uid://d5j7hnbwsvig
+Player.gd::GDScript::-1::1679514609::0::1::::<>Area2D<>::
+Player.tscn::PackedScene::5879704029433703859::1679950475::0::1::::<><>::uid://x2targ6r0a2i<>res://Player.gd<>uid://cwrfx2fj5hc16<>uid://blw80kjlxbmvj<>uid://cd3f3qy2g383q
 ::res://art/::1679511552
 enemyFlyingAlt_1.png::CompressedTexture2D::8684074794605867770::1679511552::1679511552::1::::<><>::
 enemyFlyingAlt_2.png::CompressedTexture2D::8375332671863350866::1679511552::1679511552::1::::<><>::

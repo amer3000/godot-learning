@@ -1,3 +1,8 @@
+PathFollow2D
+Path2D
+Marker2D
+Timer
+Node
 VisibleOnScreenNotifier2D
 CollisionShape2D
 AnimatedSprite2D
