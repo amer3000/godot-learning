@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://bttr34202udsm"]
+
+[ext_resource type="PackedScene" uid="uid://c551b5gx4evrc" path="res://sprite_2d.tscn" id="1_33cnc"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(106, 73)
+
+[node name="Sprite2D" parent="." instance=ExtResource("1_33cnc")]
+
+[node name="Timer" type="Timer" parent="Sprite2D"]
+autostart = true
+
+[node name="Button" type="Button" parent="."]
+offset_left = 102.0
+offset_top = 16.0
+offset_right = 337.0
+offset_bottom = 81.0
+text = "Toggle motion"
+
+[connection signal="pressed" from="Button" to="Sprite2D" method="_on_button_pressed"]
